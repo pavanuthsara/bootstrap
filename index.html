@@ -8,29 +8,65 @@
 </head>
 <body>
 
-    <div class="container my-5">
-        <h2>Normal container</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita animi 
-        sunt, alias quos non aperiam vitae explicabo nobis labore incidunt 
-        odit recusandae! Accusamus molestias, eaque veniam facere cumque 
-        porro ad.</p>
-    </div>
-
-    <div class="container-fluid">
-        <h2>Fluid container</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corrupti libero, dolorum tenetur modi magni minima architecto in saepe officia facere asperiores provident deleniti ratione optio delectus nihil aut? Aliquam!</p>
+    <div class="container-lg my-5">
+        <h2>basic grid</h2>
+        <div class="row">
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+        </div>
     </div>
 
     <div class="container-lg my-5">
-        <h2>100% width until lg screens, then container</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, fugiat velit repellat quae qui fugit possimus soluta laborum sed autem, sit, corporis deleniti atque distinctio labore excepturi culpa animi voluptatibus?</p>
+        <h2>column widths</h2>
+        <div class="row">
+            <div class="col-6">
+                <div class="p-5 bg-warning text-light">col 1</div>
+            </div>
+            <div class="col-4">
+                <div class="p-5 bg-warning text-light">col 2</div>
+            </div>
+            <div class="col-2">
+                <div class="p-5 bg-warning text-light">col 3</div>
+            </div>
+        </div>
     </div>
 
-    <div class="container-xl my-5">
-        <h2>100% width until xl screens, then contaienr</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores fugit unde minus corporis consequatur, hic incidunt iste, quod ex aspernatur magni laborum adipisci, asperiores dolor! Ratione, vitae? Nesciunt, non temporibus?</p>
+    <div class="container-lg my-5">
+        <h2>responsive column widths</h2>
+        <div class="row">
+            <div class="col-sm-4 col-lg-6">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+        </div>
     </div>
 
+    <div class="container-lg my-5">
+        <h2>justifying columns</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
